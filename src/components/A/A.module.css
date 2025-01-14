@@ -1,0 +1,95 @@
+.link-content {
+  display: block;
+  width: 360px;
+  font-size: 1em;
+  border-radius: 10px;
+  border: none;
+  background-color: var(--background-color-gray-button);
+  color: var(--color-black);
+  padding: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: all 0.25s;
+  text-decoration: none;
+}
+
+.link-content:hover {
+  background-color: var(--background-color-green-button-hover);
+  color: var(--color-gray-button-hover);
+}
+
+.link-content:visited {
+  color: var(--color-black-button-hover);
+}
+
+.link-content:visited:hover {
+  color: var(--color-gray-button-hover);
+}
+
+.link-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  border-radius: 10px;
+  border: none;
+  background-color: var(--background-color-green-button-hover);
+  padding: 10px;
+  margin-left: 10px;
+  cursor: pointer;
+  transition: all 0.25s;
+  /* position: relative; */
+}
+
+.link-header:hover {
+  color: var(--color-gray-button-hover);
+  color: var(--color-black-button-hover);
+}
+
+.link-header:visited {
+  color: var(--color-gray-button-hover);
+}
+
+.link-header:visited:hover {
+  color: var(--color-black-button-hover);
+}
+
+.lonk-logo {
+  transition: all 0.25s;
+}
+
+.link-logo:hover {
+  color: #88979b;
+}
+
+.link-logo:visited {
+  color: #AFC4C9;
+}
+
+.link-logo:visited:hover {
+  color: #88979b;
+}
+
+.link-text {
+  display: block;
+  font-size: 1em;
+  border-radius: 10px;
+  border: none;
+  color: var(--color-text);
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: all 0.25s;
+  text-decoration: none;
+}
+
+.link-text:hover {
+  color: var(--background-color-green-button-hover);
+}
+
+.link-text:visited {
+  color: var(--color-text);
+}
+
+.link-text:visited:hover {
+  color: var(--background-color-green-button-hover);
+}

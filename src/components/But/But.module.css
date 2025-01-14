@@ -1,0 +1,154 @@
+.add-note {
+  display: block;
+  width: 270px;
+  font-size: 1em;
+  border-radius: 10px;
+  border: none;
+  background-color: var(--background-color-gray-button);
+  color: var(--color-black);
+  padding: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: all 0.25s;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.add-note:hover {
+  background-color: var(--background-color-green-button);
+  color: var(--color-gray-button-hover);
+}
+
+.add-note:visited {
+  color: var(--color-black-button-hover);
+}
+
+.add-note:visited:hover {
+  color: var(--color-gray-button-hover);
+}
+
+.add-clear {
+  display: block;
+  font-size: 1.2em;
+  border-radius: 10px;
+  border: none;
+  background-color: var(--background-color-gray-button);
+  color: var(--color-black);
+  padding: 10px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: all 0.25s;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.add-clear:hover {
+  background-color: var(--background-color-green-button);
+  color: var(--color-gray-button-hover);
+}
+
+.add-clear:visited {
+  color: var(--color-black);
+}
+
+.add-clear:visited:hover {
+  color: var(--color-gray-button-hover);
+}
+
+.add-editing {
+  display: block;
+  font-size: 1.2em;
+  border-radius: 10px;
+  border: none;
+  background-color: var(--background-color-gray-button);
+  color: var(--color-black);
+  padding: 7px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: all 0.25s;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.add-editing:hover {
+  background-color: var(--background-color-green-button);
+  color: var(--color-gray-button-hover);
+}
+
+.add-editing:visited {
+  color: var(--color-black);
+}
+
+.add-editing:visited:hover {
+  color: var(--color-gray-button-hover);
+}
+
+.add-delete {
+  display: block;
+  /* width: 270px; */
+  font-size: 1em;
+  border-radius: 10px;
+  border: none;
+  background-color: var(--background-color-gray-button);
+  color: var(--color-black);
+  padding: 10px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: all 0.25s;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.add-delete:hover {
+  background-color: var(--background-color-green-button);
+  color: var(--color-gray-button-hover);
+}
+
+.add-delete:visited {
+  color: var(--color-black);
+}
+
+.add-delete:visited:hover {
+  color: var(--color-gray-button-hover);
+}
+
+.add-exit {
+  display: block;
+  font-size: 1.2em;
+  border-radius: 10px;
+  border: none;
+  background-color: var(--background-color-gray-button);
+  color: var(--color-black);
+  padding: 10px;
+  margin-left: 20px;
+  cursor: pointer;
+  transition: all 0.25s;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.add-exit:hover {
+  background-color: var(--background-color-green-button);
+  color: var(--color-gray-button-hover);
+}
+
+.add-exit:visited {
+  color: var(--color-black);
+}
+
+.add-exit:visited:hover {
+  color: var(--color-gray-button-hover);
+}

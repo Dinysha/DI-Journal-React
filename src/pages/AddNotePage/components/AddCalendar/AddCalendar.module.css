@@ -1,0 +1,70 @@
+.date-input {
+  display: flex;
+  width: fit-content;
+  align-items: center;
+}
+
+.calendar-group {
+  display: flex;
+}
+
+.calendar-conteiner {
+  width: 270px;
+  margin-bottom: 50px;
+  background-color: var(--background-color-page);
+  border-radius: 15px;
+}
+
+.calendar-header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+  align-items: center;
+  margin: 0 4px .5rem 4px;
+}
+
+.calendar-heading {
+  flex: 1;
+  margin: 0;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.calendar-cell {
+  width: 2rem;
+  line-height: 2rem;
+  text-align: center;
+  border-radius: 6px;
+  cursor: pointer;
+  outline: none;
+  margin: 1px;
+}
+
+.calendar-cell:hover {
+  background-color: var(--background-color-green-button);
+  color: var(--color-gray-button-hover);
+}
+
+.calendar-cell:focus {
+  background-color: var(--background-color-green-button);
+  color: var(--color-gray-button-hover);
+}
+
+.calendar-button {
+  background-color: var(--background-color-gray-button);
+  color: var(--color-black);
+  width: 35px;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  transition: all 0.25s;
+  padding: 0;
+  box-sizing: content-box;
+  margin-left: 10px;
+}
+
+.calendar-button:hover {
+  background-color: var(--background-color-green-button);
+  color: var(--color-gray-button-hover);
+}

@@ -1,0 +1,11 @@
+.item {
+  background-color: var(--background-color-settings);
+  width: 90%;
+  height: 50px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

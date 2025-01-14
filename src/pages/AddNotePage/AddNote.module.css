@@ -1,0 +1,39 @@
+.gen {
+  padding: 20px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.subtitle {
+  width: 800px;
+  height: 420px;
+  margin-bottom: 10px;
+  padding: 20px;
+  resize: none;
+  background-color: var(--background-color-input);
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  font-size: 18px;
+  border-bottom: 5px solid transparent;
+  overflow-y: auto;
+}
+
+.subtitle:focus {
+  border-color: var(--border-input);
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

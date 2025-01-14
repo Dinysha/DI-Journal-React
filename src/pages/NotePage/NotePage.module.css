@@ -1,0 +1,9 @@
+.gen {
+  padding: 20px;
+}
+
+.options {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
